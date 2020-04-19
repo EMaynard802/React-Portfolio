@@ -4,12 +4,18 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "seed": "node scripts/seedDB.js",
     "install": "npm install",
     "build": "npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+
+  },
   },
   "author": "Eleanor Maynard",
   "license": "ISC",

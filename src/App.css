@@ -1,0 +1,82 @@
+.card {
+	height: 50%
+}
+
+.collection a.collection-item {
+color: #2D303F;
+background-color: #FF6B35;
+font-family: 'Heebo', sans-serif;
+
+}
+.App {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-family: 'Heebo', sans-serif;
+  color: #F7C59F;
+}
+
+p {
+  font-family: 'Heebo', sans-serif;
+  color: #4C516B;
+}
+
+#darkOrange {
+  color: #FF6B35;
+}
+
+#darkBlack {
+  color: #2D303F;
+}
+
+.sidenav {
+  background-color: #4C516B;
+}
+
+img.responsive-img {
+  margin-top: 3rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* 
+.App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.project-image {
+  height: 50%
+}
+
+nav .nav-wrapper {
+  background: #2D303F;
+}
+    

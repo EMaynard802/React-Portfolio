@@ -1,19 +1,5 @@
 {
-  "name": "React-Porfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "seed": "node scripts/seedDB.js",
-    "install": "npm install",
-    "build": "npm run build",
-    "heroku-postbuild": "npm run build
-  },
-  },
-  "author": "Eleanor Maynard",{
-  "name": "portfolioupdated",
+  "name": "React-Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
